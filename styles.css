@@ -1,6 +1,6 @@
 @font-face{
-    src: url(/fonts/erasdust.ttf);
-    font-family: "Ereaser";
+    font-family: 'Ereaser';
+    src: local('Ereaser'), url(../fonts/erasdust.ttf);
 }
 
 @font-face{
