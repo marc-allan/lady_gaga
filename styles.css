@@ -1,23 +1,23 @@
 @font-face{
     src: url(/fonts/erasdust.ttf);
-    font-family: Ereaser;
+    font-family: "Ereaser";
 }
 
 @font-face{
     src: url(/fonts/BBManualMonoProTX.ttf);
-    font-family: Beyonce;
+    font-family: "Beyonce";
 }
 
 body {
     margin: 0;
-    font-family: Beyonce, Ereaser, sans-serif;
+    font-family: "Beyonce", "Ereaser", sans-serif;
     font-size: 20px;
     font-weight:lighter;
     background-color: #000;
 }
 
 .nav-text {
-    font-family: Beyonce, Ereaser, sans-serif;
+    font-family: "Ereaser", sans-serif;
     font-size: 20px;
     font-weight:lighter;
     color: #fff;
@@ -64,7 +64,7 @@ body {
 }
 
 .link-text {
-    font-family: Beyonce, Ereaser, sans-serif;
+    font-family: "Ereaser", sans-serif;
     font-size: 22px;
     font-weight:lighter;
     color: #fff;
@@ -85,7 +85,7 @@ body {
 
 #social-links{
     margin: 0;
-    font-family: Beyonce, Ereaser, sans-serif;
+    font-family: "Ereaser", sans-serif;
     font-size: 15px;
     font-weight:lighter;
     color: #fff;
@@ -100,7 +100,7 @@ body {
 
 #footer-legal{
     margin: 0;
-    font-family: Beyonce, Ereaser, sans-serif;
+    font-family: "Ereaser", sans-serif;
     font-size: 15px;
     font-weight:lighter;
     color: #fff;
