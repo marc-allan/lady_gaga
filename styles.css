@@ -1,0 +1,79 @@
+@font-face{
+    src: url(/fonts/erasdust.ttf);
+    font-family: Ereaser;
+}
+
+@font-face{
+    src: url(/fonts/BBManualMonoProTX.ttf);
+    font-family: Beyonce;
+}
+
+body {
+    margin: 0;
+    font-family: Beyonce, Ereaser, sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+    background-color: #000;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+}
+.nav-text {
+    font-family: Beyonce, Ereaser, sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 8px #000000;
+}
+
+#header {
+    z-index: 9;
+    width: 100%;
+    position: fixed;
+}
+
+#header-content{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    padding: 20px 10px;
+    border: 50;
+}
+
+#main-container{
+    line-height: 0;
+}
+
+.main-images{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.video-play{
+    position: relative;
+    text-align: center;
+}
+
+.link-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-text {
+    font-family: Beyonce, Ereaser, sans-serif;
+    font-size: 22px;
+    font-weight:lighter;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 8px #000000;
+}
