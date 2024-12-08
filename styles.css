@@ -16,12 +16,6 @@ body {
     background-color: #000;
 }
 
-footer {
-    background-color: aqua;
-    text-align: center;
-    position: fixed;
-    z-index: 9;
-}
 .nav-text {
     font-family: Beyonce, Ereaser, sans-serif;
     font-size: 20px;
@@ -76,4 +70,42 @@ footer {
     color: #fff;
     text-decoration: none;
     text-shadow: 0 0 8px #000000;
+}
+
+#site-footer {
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.footer-links{
+    padding: 2px 0;
+}
+
+#social-links{
+    margin: 0;
+    font-family: Beyonce, Ereaser, sans-serif;
+    font-size: 15px;
+    font-weight:lighter;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px #000000;
+}
+
+.footer-legal{
+    padding: 2px 0;
+}
+
+#footer-legal{
+    margin: 0;
+    font-family: Beyonce, Ereaser, sans-serif;
+    font-size: 15px;
+    font-weight:lighter;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px #000000;
+    
 }
