@@ -8,19 +8,37 @@
     font-family: "Beyonce";
 }
 
+:root{
+    --dark-color: #020617;
+    --light-color: #f1f5f9;
+    --nav-color: #f1f5f9;
+    --link-color: #f1f5f9;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: "Beyonce", "Ereaser", sans-serif;
     font-size: 20px;
     font-weight:lighter;
-    background-color: #000;
+    background-color: var(--dark-color);
 }
 
 .nav-text {
     font-family: "Ereaser", sans-serif;
     font-size: 20px;
     font-weight:lighter;
-    color: #fff;
+    color: var(--nav-color);
     text-decoration: none;
     text-shadow: 0 0 8px #000000;
 }
@@ -67,7 +85,7 @@ body {
     font-family: "Ereaser", sans-serif;
     font-size: 22px;
     font-weight:lighter;
-    color: #fff;
+    color: var(--link-color);
     text-decoration: none;
     text-shadow: 0 0 8px #000000;
 }
@@ -88,7 +106,7 @@ body {
     font-family: "Ereaser", sans-serif;
     font-size: 15px;
     font-weight:lighter;
-    color: #fff;
+    color: var(--link-color);
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 8px #000000;
@@ -103,7 +121,7 @@ body {
     font-family: "Ereaser", sans-serif;
     font-size: 15px;
     font-weight:lighter;
-    color: #fff;
+    color: var(--light-color);
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 8px #000000;
